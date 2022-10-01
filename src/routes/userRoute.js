@@ -33,7 +33,7 @@ const route = Router();
 route.post('/signUp', signUp);
 route.post(
   '/signIn',
-  passport.authenticate('local', { failureRedirect: '/user' }),
+  passport.authenticate('local', { failureRedirect: '/' }),
   signIn
 );
 route.post('/verify', verifyUser);

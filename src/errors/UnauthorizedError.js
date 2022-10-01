@@ -1,4 +1,4 @@
-import CustomError from './customError.js';
+import CustomError from './CustomError.js';
 
 class UnauthorizedError extends CustomError {
   constructor(message) {

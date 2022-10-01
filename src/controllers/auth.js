@@ -1,4 +1,5 @@
 import User from '../database/models/User.js';
+import Token from '../database/models/Token.js';
 import {
   BadRequestError,
   NotFoundError,
